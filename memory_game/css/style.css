@@ -7,7 +7,7 @@ title{
   font-size: 45px;
 }
 a{
- font-family: Raleway;
+ font-family: "Raleway", sans-serif;
  color: #FFFFFF;
  letter-spacing: 1px;
  font-weight: 600;
@@ -27,7 +27,7 @@ h1{
 }
       
 h2{
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: #0D2C40;
   letter-spacing:1px;
   font-weight: 600;
@@ -46,10 +46,10 @@ header{
 
 
 nav{
-	background-color: #00A6B3;
-	color: #FFFFFF;
-	padding-top:20px;
-	padding-bottom:20px;
+  background-color: #00A6B3;
+  color: #FFFFFF;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 main{
   width: 850px;
@@ -58,6 +58,7 @@ main{
 img{
   margin:40px 8px 40px 8px;
 }
+
 footer{
   text-transform: uppercase;
   color: white;
@@ -68,12 +69,15 @@ footer{
 
 }
 .copyright{
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   float: left;
+
 }
 .message{
+  font-family: "Raleway", sans-serif;
   float: right;
 }
+
 .clearfix:after {
 visibility: hidden;
 display: block;
@@ -82,11 +86,11 @@ clear: both;
 height: 0;
 font-size: 0;
 }
+
 .name{
   color: #F15B31;
   font-weight: 700;
 }
 a:hover{
   border-color: white;
-}
 }
